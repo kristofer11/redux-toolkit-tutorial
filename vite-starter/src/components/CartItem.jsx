@@ -32,7 +32,7 @@ const CartItem = ({ id, img, title, price, amount }) => {
                             dispatch(decrease({id}))
                         }
 
-                    }}>
+                    }}>  
                     <ChevronDown />
                 </button>
             </div>
